@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.fixed-logo {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: auto;
+    z-index: 1000;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #4682b4;
+}
+
+header h2, h3, h4, h5, h6 {
+    color: #6a5acd;
+    margin: 5px 0;
+}
+
+.quote {
+    font-style: italic;
+    color: #696969;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.facts, .schedule {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #4682b4;
+}
+
+ol, ul {
+    padding-left: 20px;
+}
+
+button {
+    width: 60px;
+    padding: 5px;
+    background-color: #6a5acd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #483d8b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #f0f8ff;
+    color: #4682b4;
+}
+
+td {
+    background-color: #fafafa;
+}
+
+a.github-link {
+    color: #4682b4;
+    text-decoration: none;
+}
+
+a.github-link:hover {
+    text-decoration: underline;
+}
